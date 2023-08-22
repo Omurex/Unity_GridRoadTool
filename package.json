@@ -1,0 +1,18 @@
+{
+    "name": "com.josephlyons.grid-road-tool",
+    "version": "1.0.0",
+    "displayName": "Grid Road Tool",
+    "description": "A tool for easily creating a grid-based road system.",
+    "unity": "2021.1",
+    "dependencies": {
+        "com.josephlyons.core" : "1.0.0",
+        "ayellowpaper.serialized-dictionary" : "1.0.0"
+    },
+    "license": "MIT",
+    "keywords": ["road", "tool", "drive", "grid", "simple"],
+    "author": {
+        "name": "Joseph Lyons",
+        "email": "josephlyons.professional@gmail.com",
+        "url": "https://www.linkedin.com/in/joseph-thomas-lyons/"
+    }
+}

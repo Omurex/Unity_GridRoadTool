@@ -1,0 +1,17 @@
+{
+    "name": "josephlyons.grid-road-tool.runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4ca81468437b5924482da06956abdb42",
+        "GUID:d525ad6bd40672747bde77962f1c401e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

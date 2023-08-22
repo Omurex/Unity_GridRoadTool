@@ -1,0 +1,21 @@
+{
+    "name": "josephlyons.grid-road-tool.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4ca81468437b5924482da06956abdb42",
+        "GUID:234340c04eed5674a988bc6ebde7d248",
+        "GUID:d525ad6bd40672747bde77962f1c401e",
+        "GUID:215bcdd739aa61c499369aa6e08f1a81"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
