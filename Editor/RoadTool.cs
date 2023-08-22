@@ -471,7 +471,9 @@ namespace GridRoadTool
         static void InitializationInfoFields()
         {
             intervalBetweenRoadPoints = EditorGUILayout.Vector2Field("Interval Between Road Points", intervalBetweenRoadPoints);
-            roadScale = EditorGUILayout.Vector3Field("Road Scale", roadScale);
+			
+			float scale = EditorGUILayout.FloatField("Road Scale", roadScale.x);
+			roadScale = new Vector3(scale, scale, scale);
         }
 
 
