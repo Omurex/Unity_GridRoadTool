@@ -3,6 +3,13 @@
 Grid Road Tool is an easy-to-use road generation tool that allows for the creation simple flat grid-based street layouts. Once set up, all you have to do is click and drag to start adding and removing roads!
 ![](https://github.com/Omurex/Unity_GridRoadTool/blob/main/README_Gifs/ToolInAction.gif)
 
+# Requirements
+- Unity 2021.1+
+- [Core](https://github.com/Omurex/Core) - Joseph Lyons
+  - Contains some base functionality scripts that this package needs to function
+- [SerializedDictionary](https://github.com/ayellowpaper/SerializedDictionary) - ayellowpepper
+  - Provides serialized dictionary behavior used for customizing piece prefabs
+
 # How to Install
 1. In Unity, click on the *Window* tab, and then select *Package Manager* from the dropdown.
 2. Click the plus sign in the top left of the Package Manager window, and click *Add package from git URL*.
@@ -32,6 +39,11 @@ To remove a road, click and drag in a straight horizontal or vertical line acros
 When you click on a point in the grid, the editor window will show a changeable flag enum called *Road Point Connected Directions*. Changing this will either add or remove roads going in the direction changed. For example, if the point has no flags selected (says NONE), selecting North will cause roads to be spawned going north. The roads will spawn until either reaching the end of the grid or hitting a road point with already existing roads.
 ![](https://github.com/Omurex/Unity_GridRoadTool/blob/main/README_Gifs/PointAddAndRemove.gif)
 
+# Attribution
+The models, materials, and textures this project comes with are available for free on the asset store, and were created by **MultiFlag Studios**.
+
+[Small Town America - Streets - FREE](https://assetstore.unity.com/packages/3d/small-town-america-streets-free-59759#publisher) by [MultiFlag Studios](http://www.multiflagstudios.com/)
+
 # License
 MIT License
 
@@ -55,8 +67,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-# Links and Contact
+# Links
 [Repository](https://github.com/Omurex/Unity_GridRoadTool)
-[Joseph Lyons (Author) Email](josephlyons.professional@gmail.com)
+
+# Contact Info
+
+[Author's GitHub Account](https://github.com/Omurex)
+[Author's Email](josephlyons.professional@gmail.com)
+[Author's LinkedIn](https://www.linkedin.com/in/joseph-thomas-lyons/)
 
 Please let me know of any issues, and I'll work on getting them fixed. Alternatively, if you wanted to fix any bugs / add any features, feel free to submit a pull request.
