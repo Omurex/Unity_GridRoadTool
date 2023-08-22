@@ -70,10 +70,14 @@ SOFTWARE.
 # Links
 [Repository](https://github.com/Omurex/Unity_GridRoadTool)
 
+[Art Assets](https://assetstore.unity.com/packages/3d/small-town-america-streets-free-59759#publisher)
+
 # Contact Info
 
-[Author's GitHub Account](https://github.com/Omurex)
-[Author's Email](josephlyons.professional@gmail.com)
-[Author's LinkedIn](https://www.linkedin.com/in/joseph-thomas-lyons/)
+[My GitHub Account](https://github.com/Omurex)
+
+[My Email](josephlyons.professional@gmail.com)
+
+[My LinkedIn](https://www.linkedin.com/in/joseph-thomas-lyons/)
 
 Please let me know of any issues, and I'll work on getting them fixed. Alternatively, if you wanted to fix any bugs / add any features, feel free to submit a pull request.
