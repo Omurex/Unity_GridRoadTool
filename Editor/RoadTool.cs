@@ -680,20 +680,29 @@ namespace GridRoadTool
 
             bool shouldEndHere = false;
 
-            // Loop through until we either hit the end of the grid or hit a road point with extra connections
+            // Loop through until we either reach the end of the grid or hit a road point with extra connections
             while(roadGrid.IsPointInGrid(pos) && shouldEndHere == false && numLoops <= maxLength)
             {
-                numLoops++;
+                numLoops++; // Advance number of loops, used to make sure we don't loop too many times
 
-                RoadPoint point = roadGrid.GetRoadPoint(pos);
-                RoadConnectionType pointConnectionType = point.GetConnectionType();
+                RoadPoint point = roadGrid.GetRoadPoint(pos); // Get road point at current position
+                
+		// Connection type can be any combination of North, South, East, and West
+  		// Represents the different intersection legs (roads coming out of intersection) this road point will have
+    		// Ex. If the connection type is North & East, the road point would turn into an L shaped corner
+  		RoadConnectionType pointConnectionType = point.GetConnectionType();
 
-                // If & does not result in 0, we know this point has more connections, and we should end our cascading here
+		// We keep going through this loop until we hit a road point whose connection type already has data for the direction we're trying to modify
+                // If the AND operator does not result in 0, we know this point has more connections in the same direction, and we should end our cascading here
                 shouldEndHere = (flippedCombined & pointConnectionType) != 0;
 
+		// The cascadeFunction delegate will hold a function to handle what should happen to all the road points we come across
+  		// This function can either handle adding or removing roads at each road point
                 cascadeFunction.Invoke(point, pointConnectionType, shouldEndHere);
 
-                point.UpdateBridges(); // Update connectors attached to point, will fix any visual bridges attached to this point
+		// Each road point has "bridges" to visually connect it to neighboring road points, since gaps may be left between grid positions
+		// Update connectors attached to point to fix any visual bridges attached to this point
+                point.UpdateBridges();
 
                 pos += dir; // Advance targeted pos in direction
             }
