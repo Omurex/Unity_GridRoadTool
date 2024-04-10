@@ -1,6 +1,7 @@
 # Description
 
 Grid Road Tool is an easy-to-use road generation tool that allows for the creation simple flat grid-based street layouts. Once set up, all you have to do is click and drag to start adding and removing roads!
+
 ![](https://github.com/Omurex/Unity_GridRoadTool/blob/main/README_Gifs/ToolInAction.gif)
 
 # Requirements
