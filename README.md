@@ -77,7 +77,7 @@ SOFTWARE.
 
 [My GitHub Account](https://github.com/Omurex)
 
-[My Email](josephlyons.professional@gmail.com)
+[My Website](https://josephthomaslyons.com/)
 
 [My LinkedIn](https://www.linkedin.com/in/joseph-thomas-lyons/)
 
